@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TabAUIViewController.h"
 
-@interface ResultViewController : UIViewController
+@interface ResultViewController : UIViewController <TabAUIViewControllerDelegate>
 
 
 @end

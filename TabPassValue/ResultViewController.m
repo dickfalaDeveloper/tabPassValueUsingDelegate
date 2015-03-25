@@ -7,26 +7,18 @@
 //
 
 #import "ResultViewController.h"
-#import "TabAUIViewController.h"
 
-@interface ResultViewController ()<TabAUIViewControllerDelegate>
-{
-    TabAUIViewController *tabAVC;
-}
+
+@interface ResultViewController ()
 @end
 
 @implementation ResultViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    tabAVC = [self.storyboard instantiateViewControllerWithIdentifier:@"TabAUIViewController"];
-    tabAVC.delegate = self;
-    
-
 }
 
--(void) tabAVC:(TabAUIViewController *)tabAVC passValue:(NSString *)str
+-(void)tabAVC:(TabAUIViewController *)tabAVC passValue:(NSString *)str
 {
     NSLog(@"str:%@",str);
 }

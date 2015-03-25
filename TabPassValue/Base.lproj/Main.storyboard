@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U4H-H5-V9U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U4H-H5-V9U">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -53,7 +53,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="rootBtnChangePageAction:" destination="pHe-2t-Jaf" eventType="touchUpInside" id="SVd-qS-lQO"/>
+                                    <action selector="rootBtnChangePageAction:" destination="pHe-2t-Jaf" eventType="touchUpInside" id="qbZ-wJ-Geb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,9 +69,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pR2-lD-2dd"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="6VI-vo-3WG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsI-F5-fyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
