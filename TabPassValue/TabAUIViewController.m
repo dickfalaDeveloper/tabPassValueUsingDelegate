@@ -14,7 +14,7 @@
 @interface TabAUIViewController()
 {
  
-    ResultViewController  *resultVC;
+   // ResultViewController  *resultVC;
 }
 @end
 
@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    resultVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ResultViewController"];
+    //resultVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ResultViewController"];
 }
 
 - (IBAction)tabABtnAction:(id)sender {
@@ -33,7 +33,7 @@
         [self.delegate tabAVC:self passValue:@"test"];
 
     }
-    [tempRootVC.navigationController pushViewController:resultVC animated:YES];
+    [tempRootVC.navigationController pushViewController:tempRootVC.resultVC animated:YES];
     
 
 }
