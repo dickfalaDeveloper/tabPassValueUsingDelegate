@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ResultViewController.h"
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController<ResultViewControllerDelegate>
 - (IBAction)rootBtnChangePageAction:(id)sender;
 @property (nonatomic,strong)  ResultViewController *resultVC;
 
